@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+width:100%;
+
+}
+h2{
+    color:Red;
+}
+.container{
+    display: flex;
+}
+.image img{
+    margin-top:50px;
+}
+@media screen and (max-width: 800px) {
+    .container{
+        display: block;
+    }
+}
+.details{
+    margin-top:50px ;
+    text-align: justify;
+}
+.details .list{
+    display:flex;
+}
